@@ -1,0 +1,61 @@
+.h{
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.h:hover{
+    color: green;
+}
+.p{
+    height: 200px;
+    width: 400px;
+    border: 2px dotted rebeccapurple;
+    border-radius: 5px;
+    overflow:scroll;
+    margin:auto;
+    background-color: yellow;
+}
+.one{
+    border:2px solid rgb(224, 245, 39);
+    border-radius: 10px;
+    height: 200px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    background-image: url(image/Background\ \(1\)\ \(1\).png);
+    margin-right: 5px;
+}
+.one:hover{
+    background-image: url(image/images\ \(1\).jpg);
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px dashed deeppink;
+   
+}
+.outerbox{
+    background-color: forestgreen;
+}
+.innerbox{
+    
+    transform: scale(.3);
+    background-color: maroon;
+    transform: rotate(45deg);
+}
+.pp{
+    border:2px solid red;
+    height: 300px;
+    width: 150px;
+    overflow: auto;
+    margin:auto;
+}
+body{
+    background-color:skyblue;
+}
+image{
+    margin:auto;
+    border:2px solid yellow;
+
+}
